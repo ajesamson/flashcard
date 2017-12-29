@@ -1,13 +1,21 @@
-var express = require('express');
-var path = require('path');
-var favicon = require('serve-favicon');
-var logger = require('morgan');
-var cookieParser = require('cookie-parser');
-var bodyParser = require('body-parser');
+'use strict'
 
-var appRoute = require('./server/routes/index');
+const express = require('express');
+const path = require('path');
+const favicon = require('serve-favicon');
+const logger = require('morgan');
+const cookieParser = require('cookie-parser');
+const bodyParser = require('body-parser');
+const mongoose = require('mongoose');
+const config = require('./server/config/config');
 
-var app = express();
+const appRoute = require('./server/routes/index');
+
+let app = express();
+// db connection
+mongoose.connect(config.database.uri)
+  .then(() =>  console.log('mongodb connection successful'))
+  .catch((err) => console.error(err));
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
