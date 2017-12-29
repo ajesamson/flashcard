@@ -1,6 +1,10 @@
-# Flashcards
+# MEAN-Boilerplate
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3. and 
+modified to allow integration with NodeJS, MongoDB and ExpressJS. 
+
+All request are passed to the NodeJS backend which later forward all unknown endpoint to 
+AngularJS for processing.
 
 ## Development server
 
