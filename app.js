@@ -18,7 +18,7 @@ mongoose.connect(config.database.uri)
   .catch((err) => console.error(err));
 
 // uncomment after placing your favicon in /public
-//app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+app.use(favicon(path.join(__dirname, 'dist', 'favicon.ico')));
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -30,7 +30,7 @@ app.use('/', appRoute);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   // allow angular to handle all request other that ones meant for backend
-  return res.render(path.join(__dirname, 'dist/index.html'));
+  return res.sendfile(path.join(__dirname, 'dist/index.html'));
 });
 
 module.exports = app;
