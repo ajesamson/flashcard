@@ -1,13 +1,12 @@
 import {RouterModule, Routes} from '@angular/router';
-import {AppComponent} from './app.component';
 
 const APP_ROUTING: Routes = [
   {
-    path: '', redirectTo: '/cards', pathMatch: 'full'
+    path: '', loadChildren: './home/home.module#HomeModule'
   },
   {
-    path: 'cards', component: AppComponent
-  }
+    path: 'auth', loadChildren: './auth/auth.module#AuthModule'
+  },
 ];
 
 export const routing = RouterModule.forRoot(APP_ROUTING);

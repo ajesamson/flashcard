@@ -21,7 +21,14 @@
       "styles": [
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "assets/plugins/jquery/jquery.min.js",
+        "assets/plugins/bootstrap/js/tether.min.js",
+        "assets/plugins/bootstrap/js/bootstrap.min.js",
+        "assets/js/jquery.slimscroll.js",
+        "assets/js/sidebarmenu.js",
+        "assets/js/custom.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",

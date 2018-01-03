@@ -373,19 +373,19 @@ html body .text-muted {
     color: #90a4ae
 }
 html body .bg-primary {
-    background-color: #7460ee 
+    background-color: #7460ee
 }
 html body .bg-success {
-    background-color: #55ce63 
+    background-color: #55ce63
 }
 html body .bg-info {
-    background-color: #009efb 
+    background-color: #009efb
 }
 html body .bg-warning {
-    background-color: #ffbc34 
+    background-color: #ffbc34
 }
 html body .bg-danger {
-    background-color: #f62d51 
+    background-color: #f62d51
 }
 html body .bg-megna {
     background-color: #01c0c8
@@ -748,22 +748,22 @@ html body .waves-notransition {
     color: #fff
 }
 .text-danger {
-    color: #f62d51 
+    color: #f62d51
 }
 .text-muted {
-    color: #90a4ae 
+    color: #90a4ae
 }
 .text-warning {
-    color: #ffbc34 
+    color: #ffbc34
 }
 .text-success {
-    color: #55ce63 
+    color: #55ce63
 }
 .text-info {
-    color: #009efb 
+    color: #009efb
 }
 .text-inverse {
-    color: #2f3d4a 
+    color: #2f3d4a
 }
 .text-blue {
     color: #02bec9
@@ -772,7 +772,7 @@ html body .waves-notransition {
     color: #7460ee
 }
 .text-primary {
-    color: #7460ee 
+    color: #7460ee
 }
 .text-megna {
     color: #01c0c8
@@ -793,7 +793,7 @@ html body .waves-notransition {
     margin-bottom: 0px
 }
 .btn-group label.btn-secondary {
-    color: #54667a 
+    color: #54667a
 }
 .btn-lg {
     padding: .75rem 1.5rem;
@@ -3571,7 +3571,7 @@ table.dataTable thead .sorting:after {
     right: 0px
 }
 .dp-selected[style] {
-    background-color: #009efb 
+    background-color: #009efb
 }
 .datepaginator-sm .pagination li a,
 .datepaginator-lg .pagination li a,
@@ -5040,7 +5040,7 @@ a.mytooltip {
     float: right
 }
 .slimScrollBar {
-    z-index: 10 
+    z-index: 10
 }
 .left-sidebar {
     position: absolute;
@@ -5707,10 +5707,10 @@ a.mytooltip {
     z-index: 0
 }
 .fc-widget-header {
-    border: 0px 
+    border: 0px
 }
 .fc-widget-content {
-    border-color: rgba(120, 130, 140, 0.13) 
+    border-color: rgba(120, 130, 140, 0.13)
 }
 .fc th.fc-widget-header {
     color: #54667a;
@@ -5757,7 +5757,7 @@ a.mytooltip {
 }
 .fc-unthemed .fc-today {
     border: 1px solid #f62d51;
-    background: #f2f7f8 
+    background: #f2f7f8
 }
 .fc-state-highlight {
     background: #f0f0f0
@@ -5872,7 +5872,7 @@ a.mytooltip {
     margin-left: 15px
 }
 .item-info p {
-    margin-bottom: 10px 
+    margin-bottom: 10px
 }
 .feeds {
     margin: 0px;
@@ -5952,7 +5952,7 @@ a.mytooltip {
 }
 .gaugejs-box canvas.gaugejs {
     width: 100% ;
-    height: auto 
+    height: auto
 }
 .social-profile-first {
     text-align: center;
@@ -6033,7 +6033,7 @@ a.mytooltip {
     margin-left: 15px
 }
 .profiletimeline .item-info p {
-    margin-bottom: 10px 
+    margin-bottom: 10px
 }
 @media (min-width: 1600px) {
     .col-xlg-1,
@@ -6324,7 +6324,7 @@ a.mytooltip {
     }
     .flex-wrap {
         flex-wrap: no-wrap ;
-        -webkit-flex-wrap: no-wrap 
+        -webkit-flex-wrap: no-wrap
     }
 }
 @media (max-width: 767px) {
@@ -6465,7 +6465,7 @@ a.mytooltip {
     }
     .flex-wrap {
         flex-wrap: wrap ;
-        -webkit-flex-wrap: wrap 
+        -webkit-flex-wrap: wrap
     }
     .chat-list li .chat-content {
         width: calc(100% - 80px)
